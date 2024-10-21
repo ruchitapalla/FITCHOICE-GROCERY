@@ -1,0 +1,129 @@
+/* General page styling */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333; 
+    line-height: 1.7;
+}
+
+/* Section styling */
+#blood-pressure {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff; 
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#blood-pressure:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading styling */
+h2, h3, h4, h5 {
+    color: #1a5276;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2980b9; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 30px;
+    border-bottom: 3px solid #1a5276;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 1.75rem;
+    margin-top: 25px;
+}
+
+h5 {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    color: #16a085; 
+/* Paragraph styling */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #555; 
+}
+
+/* List styling */
+ul {
+    list-style-type: square;
+    padding-left: 25px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+/* Call-to-action style */
+p:last-of-type {
+    text-align: center;
+    font-weight: bold;
+    color: #1a5276;
+    background-color: #e8f8f5; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 35px auto;
+    max-width: 100%; 
+    border-radius: 20px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.08); 
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3); 
+
+/* Button-style hover effect on list items */
+ul li:hover {
+    color: #e74c3c; 
+    transition: 0.3s ease;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2980b9;
+    color: #fff;
+    margin-top: 50px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    #blood-pressure {
+        padding: 30px;
+    }
+
+    img {
+        max-width: 90%;
+    }
+}
